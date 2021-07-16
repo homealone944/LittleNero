@@ -17,12 +17,12 @@ This is my second keyboard from scratch, but my first PCB design
 
 ### Stretch Features
 
-- LEDs (Backglow, Per-Key, Status Indicators)
-- Hot swappable
-- Bluetooth
-- Extra pins can be soldered to on PCB for expansion?
-- Display?
-- Encoder?
+- [ ] LEDs (Backglow, Per-Key, Status Indicators)
+- [ ] Hot swappable
+- [ ] Bluetooth
+- [ ] Extra pins can be soldered to on PCB for expansion?
+- [ ] Display?
+- [ ] Encoder?
 
 ## Keyboard Inspiration
 
@@ -32,12 +32,10 @@ This is my second keyboard from scratch, but my first PCB design
 
 ## My Process
 
-1) Look up inspiration
-    - See [links](./Links.md)
-1) Design layout of keyboard
-    - [KeyboardLayoutEditor](http://www.keyboard-layout-editor.com/)
+1) [Find inspiration](./Links.md#Inspiration)
+1) [Design layout of keyboard](./Links.md#keyboard-design)
     - [Little Nero Layout](./LittleNero/Layout.json)
-1) Design PCB with KiCad
+1) [Design PCB with KiCad](./Links.md#pcb-design)
 1) Order PCB online
 1) Assemble PCB
 1) Create Firmware

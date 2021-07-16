@@ -3,12 +3,16 @@
 ## Inspiration
 
 - [Good Keyboard List](https://github.com/BenRoe/awesome-mechanical-keyboard/blob/master/docs/README.md)
+  - List of many different keyboards, good for ideas
 - [Keyboard Sizes](https://www.keebtalk.com/t/standard-keyboard-sizes-layouts/60)
+  - Information on different keyboard sizes
 
 ## Keyboard Design
 
 - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
+  - Allows you to design your perfect keyboard, or to look at others
 - [GergoPlex Layout](http://www.keyboard-layout-editor.com/#/gists/6a12f505b882bd89a9d1e20826c34d53)
+  - Very influential in the design of this keyboard
 
 ## PCB Design
 
@@ -31,7 +35,9 @@
 
 ## Firmware
 
+- [QMK Documentation](https://docs.qmk.fm/)
 - [Colemak DH Matrix Layout](https://colemakmods.github.io/mod-dh/keyboards.html#matrix-keyboards)
+- [QMK Online configurator](https://config.qmk.fm/)
 
 ## Good Reads
 
