@@ -32,6 +32,7 @@ This page is for putting down some design questions I had as well as any solutio
 - Kailh Choc switches have a different measurements, cant just fit in where MX switches would
 - Different Hot swap sockets
 - Platemounted switches, recommended 1.2-1.3mm
+- There are special low profile stabilizers
 - Different location for Per-Key LEDs (SMD only)
 
 ## Switch to new Keyboard Layout

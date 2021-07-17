@@ -13,6 +13,8 @@
   - Allows you to design your perfect keyboard, or to look at others
 - [GergoPlex Layout](http://www.keyboard-layout-editor.com/#/gists/6a12f505b882bd89a9d1e20826c34d53)
   - Very influential in the design of this keyboard
+- [Keyboard Anatomy](https://matt3o.com/anatomy-of-a-keyboard/)
+  - Reference for how keyboards are layed out + some key dimensions
 
 ## PCB Design
 
