@@ -24,8 +24,9 @@ This page is for putting down some design questions I had as well as any solutio
 
 - Dont need 2 MCU if fully "wired", would need many wires in cable between
   - HDMI, Cat-5
-- **MCU on both hands** and connect with TRRS cable
-  - Serial or **I2C** conncection?
+- Connect with TRRS cable. Serial or I2C connection
+  1) 2 MCU (one on each hand)
+  1) 1 MCU + IO Expander
 
 ## Whats special about low profile switches?
 

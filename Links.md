@@ -20,18 +20,23 @@
 
 - [Mr Keebs PCB design](https://www.youtube.com/watch?v=Nk0egpDFqRA&ab_channel=MrKeebs)
   - Follow along tutorial for PCB
+- [QMK Split Keyboard connection](https://qmk.fm/keyboards/lets_split/)
+  - Reference for connecting 2 MCU for Serial and I2C
+- [Basic MCU wiring](https://www.avrfreaks.net/forum/which-decoupling-caps-atmega32u4)
+  - Reference for basic MCU connections
+- [Reddit: USB-C help](https://www.reddit.com/r/KiCad/comments/9ihgbx/question_about_custom_keyboard_pcb/)
+  - Reference for USB-C
+
+### Keyboard References
+
 - [Acheron Project](https://acheronproject.com/)
   - Reference for general PCB design
 - [Lets Split](https://github.com/climbalima/let-s-Split-v2)
   - Reference for Split sides
 - [Orbit](https://github.com/ai03-2725/Orbit)
   - Reference for USB-C + Split sides
-- [Reddit: USB-C help](https://www.reddit.com/r/KiCad/comments/9ihgbx/question_about_custom_keyboard_pcb/)
-  - Reference for USB-C
-- [QMK Split Keyboard connection](https://qmk.fm/keyboards/lets_split/)
-  - Reference for connecting 2 MCU for Serial and I2C
-- [Basic MCU wiring](https://www.avrfreaks.net/forum/which-decoupling-caps-atmega32u4)
-  - Reference for basic MCU connections
+- [ErgoDox Schematics](https://github.com/zsa/docs)
+  - Reference for IO Expander + Split sides
 
 ## Manufacturing
 
@@ -45,6 +50,7 @@
 
 - Lessons learned about making keyboards [here](https://kevinlynagh.com/keyboards/)
 - [Kailh Choc Info](https://www.reddit.com/r/MechanicalKeyboards/comments/8v5f9y/questions_about_kailh/)
+- [ErgoDox Wiki](https://deskthority.net/wiki/ErgoDox)
 
 ## Go Through
 
