@@ -56,10 +56,10 @@ F 3 "" H 10575 4775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R4
+L Device:R_Small R5
 U 1 1 60F2AEA6
 P 10475 4775
-F 0 "R4" V 10325 4775 50  0000 C CNN
+F 0 "R5" V 10325 4775 50  0000 C CNN
 F 1 "1k" V 10400 4775 50  0000 C CNN
 F 2 "acheron_Components:R_SMD_1206" H 10475 4775 50  0001 C CNN
 F 3 "~" H 10475 4775 50  0001 C CNN
@@ -436,10 +436,10 @@ F 3 "~" V 1550 1175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L keyboard_parts:mechSwitch MX3
+L keyboard_parts:mechSwitch MX4
 U 1 1 60F737A7
 P 2350 1575
-F 0 "MX3" H 2275 1600 39  0000 L CNN
+F 0 "MX4" H 2275 1600 39  0000 L CNN
 F 1 "mechSwitch" H 2175 1525 39  0000 L CNN
 F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 2350 1625 50  0001 C CNN
 F 3 "" H 2350 1625 50  0001 C CNN
@@ -447,10 +447,10 @@ F 3 "" H 2350 1625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D3
+L Device:D_Small D4
 U 1 1 60F737AD
 P 2350 1175
-F 0 "D3" V 2304 1245 50  0000 L CNN
+F 0 "D4" V 2304 1245 50  0000 L CNN
 F 1 "1N4148W" V 2395 1245 50  0000 L CNN
 F 2 "acheron_Components:D_SOD-123" V 2350 1175 50  0001 C CNN
 F 3 "~" V 2350 1175 50  0001 C CNN
@@ -491,10 +491,10 @@ F 3 "" H 9000 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R5
+L Device:R_Small R4
 U 1 1 60F2D8F4
 P 9000 1675
-F 0 "R5" H 8900 1650 50  0000 C CNN
+F 0 "R4" H 8900 1650 50  0000 C CNN
 F 1 "330" H 8875 1725 50  0000 C CNN
 F 2 "acheron_Components:R_SMD_1206" H 9000 1675 50  0001 C CNN
 F 3 "~" H 9000 1675 50  0001 C CNN
@@ -747,10 +747,10 @@ Wire Wire Line
 Wire Wire Line
 	4425 2325 4425 1575
 $Comp
-L keyboard_parts:mechSwitch MX4
+L keyboard_parts:mechSwitch MX3
 U 1 1 60F5579B
 P 1550 3075
-F 0 "MX4" H 1475 3100 39  0000 L CNN
+F 0 "MX3" H 1475 3100 39  0000 L CNN
 F 1 "mechSwitch" H 1375 3025 39  0000 L CNN
 F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 1550 3125 50  0001 C CNN
 F 3 "" H 1550 3125 50  0001 C CNN
@@ -758,10 +758,10 @@ F 3 "" H 1550 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D4
+L Device:D_Small D3
 U 1 1 60F557A1
 P 1550 2675
-F 0 "D4" V 1504 2745 50  0000 L CNN
+F 0 "D3" V 1504 2745 50  0000 L CNN
 F 1 "1N4148W" V 1595 2745 50  0000 L CNN
 F 2 "acheron_Components:D_SOD-123" V 1550 2675 50  0001 C CNN
 F 3 "~" V 1550 2675 50  0001 C CNN
@@ -935,7 +935,7 @@ U 1 1 60F7086F
 P 3950 3825
 F 0 "MX14" H 3875 3850 39  0000 L CNN
 F 1 "mechSwitch" H 3775 3775 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3950 3875 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible_1.5" H 3950 3875 50  0001 C CNN
 F 3 "" H 3950 3875 50  0001 C CNN
 	1    3950 3825
 	1    0    0    -1  
@@ -965,7 +965,7 @@ U 1 1 60F7087F
 P 4750 3825
 F 0 "MX18" H 4675 3850 39  0000 L CNN
 F 1 "mechSwitch" H 4575 3775 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 4750 3875 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible_2" H 4750 3875 50  0001 C CNN
 F 3 "" H 4750 3875 50  0001 C CNN
 	1    4750 3825
 	1    0    0    -1  
@@ -997,4 +997,6 @@ Connection ~ 1225 1575
 Wire Wire Line
 	1225 2325 1225 3075
 Connection ~ 1225 2325
+Text GLabel 9875 2275 2    50   Input ~ 0
+VCC
 $EndSCHEMATC
