@@ -20,6 +20,10 @@
 
 - [Mr Keebs PCB design](https://www.youtube.com/watch?v=Nk0egpDFqRA&ab_channel=MrKeebs)
   - Follow along tutorial for PCB
+- [Masterzen walkthrough](https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/)
+  - PCB design walkthrough & explanation
+- [ai03 design guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)
+  - PCB Designer Guide
 - [QMK Split Keyboard connection](https://qmk.fm/keyboards/lets_split/)
   - Reference for connecting 2 MCU for Serial and I2C
 - [Basic MCU wiring](https://www.avrfreaks.net/forum/which-decoupling-caps-atmega32u4)
