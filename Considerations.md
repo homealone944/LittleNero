@@ -41,3 +41,7 @@ This page is for putting down some design questions I had as well as any solutio
 - Currently use QWERTY at ~80wpm
 - Dvorak, Workman, Colemak
 - Going to try: [Colemak DHM](https://colemakmods.github.io/mod-dh/)
+
+## PerKey LEDs
+
+- If you have Reversable or Hotswap optional footprint, cant do per-key LEDs
