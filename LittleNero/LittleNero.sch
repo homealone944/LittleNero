@@ -16,182 +16,178 @@ $EndDescr
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 60F1FE95
-P 9775 4175
-F 0 "U1" H 9600 3500 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 9650 3400 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 9775 4175 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 9775 4175 50  0001 C CNN
-	1    9775 4175
+P 9950 4175
+F 0 "U1" H 9775 3500 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 9825 3400 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 9950 4175 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 9950 4175 50  0001 C CNN
+	1    9950 4175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 60F23BEB
-P 9725 6075
-F 0 "#PWR09" H 9725 5825 50  0001 C CNN
-F 1 "GND" H 9730 5902 50  0000 C CNN
-F 2 "" H 9725 6075 50  0001 C CNN
-F 3 "" H 9725 6075 50  0001 C CNN
-	1    9725 6075
+P 9900 6075
+F 0 "#PWR09" H 9900 5825 50  0001 C CNN
+F 1 "GND" H 9905 5902 50  0000 C CNN
+F 2 "" H 9900 6075 50  0001 C CNN
+F 3 "" H 9900 6075 50  0001 C CNN
+	1    9900 6075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9675 5975 9675 6075
+	9850 5975 9850 6075
 Wire Wire Line
-	9675 6075 9725 6075
+	9850 6075 9900 6075
 Wire Wire Line
-	9775 5975 9775 6075
+	9950 5975 9950 6075
 Wire Wire Line
-	9775 6075 9725 6075
-Connection ~ 9725 6075
+	9950 6075 9900 6075
+Connection ~ 9900 6075
 $Comp
 L power:GND #PWR013
 U 1 1 60F29965
-P 10575 4775
-F 0 "#PWR013" H 10575 4525 50  0001 C CNN
-F 1 "GND" V 10575 4675 50  0000 R CNN
-F 2 "" H 10575 4775 50  0001 C CNN
-F 3 "" H 10575 4775 50  0001 C CNN
-	1    10575 4775
+P 10750 4775
+F 0 "#PWR013" H 10750 4525 50  0001 C CNN
+F 1 "GND" V 10750 4675 50  0000 R CNN
+F 2 "" H 10750 4775 50  0001 C CNN
+F 3 "" H 10750 4775 50  0001 C CNN
+	1    10750 4775
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 60F2AEA6
-P 10475 4775
-F 0 "R5" V 10325 4775 50  0000 C CNN
-F 1 "1k" V 10400 4775 50  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 10475 4775 50  0001 C CNN
-F 3 "~" H 10475 4775 50  0001 C CNN
-	1    10475 4775
+P 10650 4775
+F 0 "R5" V 10500 4775 50  0000 C CNN
+F 1 "10k" V 10575 4775 50  0000 C CNN
+F 2 "acheron_Components:R_SMD_1206" H 10650 4775 50  0001 C CNN
+F 3 "~" H 10650 4775 50  0001 C CNN
+	1    10650 4775
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR010
 U 1 1 60F2BCC8
-P 9775 2250
-F 0 "#PWR010" H 9775 2100 50  0001 C CNN
-F 1 "+5V" H 9790 2423 50  0000 C CNN
-F 2 "" H 9775 2250 50  0001 C CNN
-F 3 "" H 9775 2250 50  0001 C CNN
-	1    9775 2250
+P 9950 2250
+F 0 "#PWR010" H 9950 2100 50  0001 C CNN
+F 1 "+5V" H 9965 2423 50  0000 C CNN
+F 2 "" H 9950 2250 50  0001 C CNN
+F 3 "" H 9950 2250 50  0001 C CNN
+	1    9950 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9875 2375 9875 2250
+	10050 2375 10050 2250
 Wire Wire Line
-	9875 2250 9775 2250
+	10050 2250 9950 2250
 Wire Wire Line
-	9775 2375 9775 2250
-Connection ~ 9775 2250
+	9950 2375 9950 2250
+Connection ~ 9950 2250
 Wire Wire Line
-	9675 2375 9675 2250
+	9850 2375 9850 2250
 Wire Wire Line
-	9675 2250 9775 2250
+	9850 2250 9950 2250
 $Comp
 L Device:C_Small C4
 U 1 1 60F2CA73
-P 9175 4075
-F 0 "C4" H 9000 4100 50  0000 L CNN
-F 1 "1u" H 9000 4025 50  0000 L CNN
-F 2 "acheron_Components:C_0805_2012Metric" H 9175 4075 50  0001 C CNN
-F 3 "~" H 9175 4075 50  0001 C CNN
-	1    9175 4075
+P 9350 4075
+F 0 "C4" H 9175 4100 50  0000 L CNN
+F 1 "1uF" H 9150 4025 50  0000 L CNN
+F 2 "acheron_Components:C_0805_2012Metric" H 9350 4075 50  0001 C CNN
+F 3 "~" H 9350 4075 50  0001 C CNN
+	1    9350 4075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 60F2D7F2
-P 9175 4175
-F 0 "#PWR08" H 9175 3925 50  0001 C CNN
-F 1 "GND" H 9180 4002 50  0000 C CNN
-F 2 "" H 9175 4175 50  0001 C CNN
-F 3 "" H 9175 4175 50  0001 C CNN
-	1    9175 4175
+P 9350 4175
+F 0 "#PWR08" H 9350 3925 50  0001 C CNN
+F 1 "GND" H 9355 4002 50  0000 C CNN
+F 2 "" H 9350 4175 50  0001 C CNN
+F 3 "" H 9350 4175 50  0001 C CNN
+	1    9350 4175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR07
 U 1 1 60F2EC2C
-P 9175 3475
-F 0 "#PWR07" H 9175 3325 50  0001 C CNN
-F 1 "+5V" V 9190 3603 50  0000 L CNN
-F 2 "" H 9175 3475 50  0001 C CNN
-F 3 "" H 9175 3475 50  0001 C CNN
-	1    9175 3475
+P 9350 3475
+F 0 "#PWR07" H 9350 3325 50  0001 C CNN
+F 1 "+5V" V 9365 3603 50  0000 L CNN
+F 2 "" H 9350 3475 50  0001 C CNN
+F 3 "" H 9350 3475 50  0001 C CNN
+	1    9350 3475
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9175 3675 0    50   Input ~ 0
-D+
-Text GLabel 9175 3775 0    50   Input ~ 0
-D-
-Text GLabel 9175 2675 0    50   Input ~ 0
+Text GLabel 9350 2675 0    50   Input ~ 0
 RST
 $Comp
 L Device:C_Small C1
 U 1 1 60F31296
-P 8700 2875
-F 0 "C1" V 8525 2825 50  0000 L CNN
-F 1 "22pF" V 8600 2775 50  0000 L CNN
-F 2 "acheron_Components:C_0805_2012Metric" H 8700 2875 50  0001 C CNN
-F 3 "~" H 8700 2875 50  0001 C CNN
-	1    8700 2875
+P 8875 2875
+F 0 "C1" V 8700 2825 50  0000 L CNN
+F 1 "22pF" V 8775 2775 50  0000 L CNN
+F 2 "acheron_Components:C_0805_2012Metric" H 8875 2875 50  0001 C CNN
+F 3 "~" H 8875 2875 50  0001 C CNN
+	1    8875 2875
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C2
 U 1 1 60F331C6
-P 8700 3075
-F 0 "C2" V 8875 3025 50  0000 L CNN
-F 1 "22pF" V 8800 2975 50  0000 L CNN
-F 2 "acheron_Components:C_0805_2012Metric" H 8700 3075 50  0001 C CNN
-F 3 "~" H 8700 3075 50  0001 C CNN
-	1    8700 3075
+P 8875 3075
+F 0 "C2" V 9050 3025 50  0000 L CNN
+F 1 "22pF" V 8975 2975 50  0000 L CNN
+F 2 "acheron_Components:C_0805_2012Metric" H 8875 3075 50  0001 C CNN
+F 3 "~" H 8875 3075 50  0001 C CNN
+	1    8875 3075
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 60F33B14
-P 8600 2875
-F 0 "#PWR03" H 8600 2625 50  0001 C CNN
-F 1 "GND" V 8605 2747 50  0000 R CNN
-F 2 "" H 8600 2875 50  0001 C CNN
-F 3 "" H 8600 2875 50  0001 C CNN
-	1    8600 2875
+P 8775 2875
+F 0 "#PWR03" H 8775 2625 50  0001 C CNN
+F 1 "GND" V 8780 2747 50  0000 R CNN
+F 2 "" H 8775 2875 50  0001 C CNN
+F 3 "" H 8775 2875 50  0001 C CNN
+	1    8775 2875
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 60F34EE9
-P 8600 3075
-F 0 "#PWR04" H 8600 2825 50  0001 C CNN
-F 1 "GND" V 8605 2947 50  0000 R CNN
-F 2 "" H 8600 3075 50  0001 C CNN
-F 3 "" H 8600 3075 50  0001 C CNN
-	1    8600 3075
+P 8775 3075
+F 0 "#PWR04" H 8775 2825 50  0001 C CNN
+F 1 "GND" V 8780 2947 50  0000 R CNN
+F 2 "" H 8775 3075 50  0001 C CNN
+F 3 "" H 8775 3075 50  0001 C CNN
+	1    8775 3075
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Crystal_Small Y1
 U 1 1 60F35E25
-P 8975 2975
-F 0 "Y1" V 8750 2900 50  0000 L CNN
-F 1 "16MHz" V 8825 2850 50  0000 L CNN
-F 2 "acheron_Components:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 8975 2975 50  0001 C CNN
-F 3 "~" H 8975 2975 50  0001 C CNN
-	1    8975 2975
+P 9150 2975
+F 0 "Y1" V 8925 2900 50  0000 L CNN
+F 1 "16MHz" V 9000 2850 50  0000 L CNN
+F 2 "acheron_Components:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 9150 2975 50  0001 C CNN
+F 3 "~" H 9150 2975 50  0001 C CNN
+	1    9150 2975
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9175 2875 8975 2875
+	9350 2875 9150 2875
 Wire Wire Line
-	9175 3075 8975 3075
+	9350 3075 9150 3075
 Wire Wire Line
-	8975 3075 8800 3075
-Connection ~ 8975 3075
+	9150 3075 8975 3075
+Connection ~ 9150 3075
 Wire Wire Line
-	8975 2875 8800 2875
-Connection ~ 8975 2875
+	9150 2875 8975 2875
+Connection ~ 9150 2875
 $Comp
 L power:+5V #PWR011
 U 1 1 60F37DC2
@@ -286,7 +282,7 @@ L Device:C_Small C6
 U 1 1 60F529F6
 P 10175 1400
 F 0 "C6" H 10250 1400 50  0000 L CNN
-F 1 "1uF" H 10200 1475 50  0000 L CNN
+F 1 ".1uF" H 10200 1475 50  0000 L CNN
 F 2 "acheron_Components:C_0805_2012Metric" H 10175 1400 50  0001 C CNN
 F 3 "~" H 10175 1400 50  0001 C CNN
 	1    10175 1400
@@ -297,7 +293,7 @@ L Device:C_Small C7
 U 1 1 60F53045
 P 10450 1400
 F 0 "C7" H 10525 1400 50  0000 L CNN
-F 1 "100nF" H 10450 1475 50  0000 L CNN
+F 1 ".1uF" H 10450 1475 50  0000 L CNN
 F 2 "acheron_Components:C_0805_2012Metric" H 10450 1400 50  0001 C CNN
 F 3 "~" H 10450 1400 50  0001 C CNN
 	1    10450 1400
@@ -308,7 +304,7 @@ L Device:C_Small C8
 U 1 1 60F53557
 P 10725 1400
 F 0 "C8" H 10800 1400 50  0000 L CNN
-F 1 "100nF" H 10725 1475 50  0000 L CNN
+F 1 ".1uF" H 10725 1475 50  0000 L CNN
 F 2 "acheron_Components:C_0805_2012Metric" H 10725 1400 50  0001 C CNN
 F 3 "~" H 10725 1400 50  0001 C CNN
 	1    10725 1400
@@ -347,66 +343,36 @@ Connection ~ 10300 1250
 $Comp
 L Connector:USB_B_Mini J1
 U 1 1 60F668D2
-P 7800 5425
-F 0 "J1" H 7857 5892 50  0000 C CNN
-F 1 "USB_B_Mini" H 7857 5801 50  0000 C CNN
-F 2 "acheron_Connectors:USB_MiniB_XM7D-0512" H 7950 5375 50  0001 C CNN
-F 3 "~" H 7950 5375 50  0001 C CNN
-	1    7800 5425
+P 7525 1225
+F 0 "J1" H 7582 1692 50  0000 C CNN
+F 1 "USB_B_Mini" H 7582 1601 50  0000 C CNN
+F 2 "acheron_Connectors:USB_MiniB_XM7D-0512" H 7675 1175 50  0001 C CNN
+F 3 "~" H 7675 1175 50  0001 C CNN
+	1    7525 1225
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR02
 U 1 1 60F66ED0
-P 8100 5225
-F 0 "#PWR02" H 8100 5075 50  0001 C CNN
-F 1 "+5V" V 8115 5353 50  0000 L CNN
-F 2 "" H 8100 5225 50  0001 C CNN
-F 3 "" H 8100 5225 50  0001 C CNN
-	1    8100 5225
+P 7825 1025
+F 0 "#PWR02" H 7825 875 50  0001 C CNN
+F 1 "+5V" V 7840 1153 50  0000 L CNN
+F 2 "" H 7825 1025 50  0001 C CNN
+F 3 "" H 7825 1025 50  0001 C CNN
+	1    7825 1025
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 60F67C3C
-P 7800 5825
-F 0 "#PWR01" H 7800 5575 50  0001 C CNN
-F 1 "GND" H 7805 5652 50  0000 C CNN
-F 2 "" H 7800 5825 50  0001 C CNN
-F 3 "" H 7800 5825 50  0001 C CNN
-	1    7800 5825
+P 7525 1625
+F 0 "#PWR01" H 7525 1375 50  0001 C CNN
+F 1 "GND" H 7530 1452 50  0000 C CNN
+F 2 "" H 7525 1625 50  0001 C CNN
+F 3 "" H 7525 1625 50  0001 C CNN
+	1    7525 1625
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 60F693BB
-P 8200 5425
-F 0 "R1" V 8125 5550 50  0000 C CNN
-F 1 "22" V 8125 5425 50  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 8200 5425 50  0001 C CNN
-F 3 "~" H 8200 5425 50  0001 C CNN
-	1    8200 5425
-	0    1    1    0   
-$EndComp
-Text GLabel 8400 5425 2    50   Input ~ 0
-D+
-Text GLabel 8400 5525 2    50   Input ~ 0
-D-
-Wire Wire Line
-	8300 5425 8400 5425
-$Comp
-L Device:R_Small R2
-U 1 1 60F6BF1D
-P 8200 5525
-F 0 "R2" V 8275 5650 50  0000 C CNN
-F 1 "22" V 8275 5525 50  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 8200 5525 50  0001 C CNN
-F 3 "~" H 8200 5525 50  0001 C CNN
-	1    8200 5525
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8300 5525 8400 5525
 Text GLabel 1225 850  0    50   Input ~ 0
 Col1
 Text GLabel 2025 825  0    50   Input ~ 0
@@ -419,7 +385,7 @@ U 1 1 60F6DA2F
 P 1550 1575
 F 0 "MX1" H 1475 1600 39  0000 L CNN
 F 1 "mechSwitch" H 1375 1525 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 1550 1625 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 1550 1625 50  0001 C CNN
 F 3 "" H 1550 1625 50  0001 C CNN
 	1    1550 1575
 	1    0    0    -1  
@@ -441,7 +407,7 @@ U 1 1 60F737A7
 P 2350 1575
 F 0 "MX4" H 2275 1600 39  0000 L CNN
 F 1 "mechSwitch" H 2175 1525 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 2350 1625 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2350 1625 50  0001 C CNN
 F 3 "" H 2350 1625 50  0001 C CNN
 	1    2350 1575
 	1    0    0    -1  
@@ -509,7 +475,7 @@ U 1 1 60F3294D
 P 3150 1575
 F 0 "MX7" H 3075 1600 39  0000 L CNN
 F 1 "mechSwitch" H 2975 1525 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3150 1625 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3150 1625 50  0001 C CNN
 F 3 "" H 3150 1625 50  0001 C CNN
 	1    3150 1575
 	1    0    0    -1  
@@ -541,7 +507,7 @@ U 1 1 60F351AA
 P 3950 1575
 F 0 "MX11" H 3875 1600 39  0000 L CNN
 F 1 "mechSwitch" H 3775 1525 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3950 1625 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3950 1625 50  0001 C CNN
 F 3 "" H 3950 1625 50  0001 C CNN
 	1    3950 1575
 	1    0    0    -1  
@@ -573,7 +539,7 @@ U 1 1 60F36EEE
 P 4750 1575
 F 0 "MX15" H 4675 1600 39  0000 L CNN
 F 1 "mechSwitch" H 4575 1525 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 4750 1625 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 4750 1625 50  0001 C CNN
 F 3 "" H 4750 1625 50  0001 C CNN
 	1    4750 1575
 	1    0    0    -1  
@@ -603,7 +569,7 @@ U 1 1 60F4C423
 P 1550 2325
 F 0 "MX2" H 1475 2350 39  0000 L CNN
 F 1 "mechSwitch" H 1375 2275 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 1550 2375 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 1550 2375 50  0001 C CNN
 F 3 "" H 1550 2375 50  0001 C CNN
 	1    1550 2325
 	1    0    0    -1  
@@ -625,7 +591,7 @@ U 1 1 60F4C42F
 P 2350 2325
 F 0 "MX5" H 2275 2350 39  0000 L CNN
 F 1 "mechSwitch" H 2175 2275 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 2350 2375 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2350 2375 50  0001 C CNN
 F 3 "" H 2350 2375 50  0001 C CNN
 	1    2350 2325
 	1    0    0    -1  
@@ -662,7 +628,7 @@ U 1 1 60F4C444
 P 3150 2325
 F 0 "MX8" H 3075 2350 39  0000 L CNN
 F 1 "mechSwitch" H 2975 2275 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3150 2375 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3150 2375 50  0001 C CNN
 F 3 "" H 3150 2375 50  0001 C CNN
 	1    3150 2325
 	1    0    0    -1  
@@ -692,7 +658,7 @@ U 1 1 60F4C454
 P 3950 2325
 F 0 "MX12" H 3875 2350 39  0000 L CNN
 F 1 "mechSwitch" H 3775 2275 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3950 2375 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3950 2375 50  0001 C CNN
 F 3 "" H 3950 2375 50  0001 C CNN
 	1    3950 2325
 	1    0    0    -1  
@@ -722,7 +688,7 @@ U 1 1 60F4C464
 P 4750 2325
 F 0 "MX16" H 4675 2350 39  0000 L CNN
 F 1 "mechSwitch" H 4575 2275 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 4750 2375 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 4750 2375 50  0001 C CNN
 F 3 "" H 4750 2375 50  0001 C CNN
 	1    4750 2325
 	1    0    0    -1  
@@ -752,7 +718,7 @@ U 1 1 60F5579B
 P 1550 3075
 F 0 "MX3" H 1475 3100 39  0000 L CNN
 F 1 "mechSwitch" H 1375 3025 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 1550 3125 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 1550 3125 50  0001 C CNN
 F 3 "" H 1550 3125 50  0001 C CNN
 	1    1550 3075
 	1    0    0    -1  
@@ -774,7 +740,7 @@ U 1 1 60F557A7
 P 2350 3075
 F 0 "MX6" H 2275 3100 39  0000 L CNN
 F 1 "mechSwitch" H 2175 3025 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 2350 3125 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2350 3125 50  0001 C CNN
 F 3 "" H 2350 3125 50  0001 C CNN
 	1    2350 3075
 	1    0    0    -1  
@@ -809,7 +775,7 @@ U 1 1 60F557BC
 P 3150 3075
 F 0 "MX9" H 3075 3100 39  0000 L CNN
 F 1 "mechSwitch" H 2975 3025 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3150 3125 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3150 3125 50  0001 C CNN
 F 3 "" H 3150 3125 50  0001 C CNN
 	1    3150 3075
 	1    0    0    -1  
@@ -837,7 +803,7 @@ U 1 1 60F557CC
 P 3950 3075
 F 0 "MX13" H 3875 3100 39  0000 L CNN
 F 1 "mechSwitch" H 3775 3025 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3950 3125 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3950 3125 50  0001 C CNN
 F 3 "" H 3950 3125 50  0001 C CNN
 	1    3950 3075
 	1    0    0    -1  
@@ -865,7 +831,7 @@ U 1 1 60F557DC
 P 4750 3075
 F 0 "MX17" H 4675 3100 39  0000 L CNN
 F 1 "mechSwitch" H 4575 3025 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 4750 3125 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 4750 3125 50  0001 C CNN
 F 3 "" H 4750 3125 50  0001 C CNN
 	1    4750 3075
 	1    0    0    -1  
@@ -907,7 +873,7 @@ U 1 1 60F7085F
 P 3150 3825
 F 0 "MX10" H 3075 3850 39  0000 L CNN
 F 1 "mechSwitch" H 2975 3775 39  0000 L CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3150 3875 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 3150 3875 50  0001 C CNN
 F 3 "" H 3150 3875 50  0001 C CNN
 	1    3150 3825
 	1    0    0    -1  
@@ -997,6 +963,269 @@ Connection ~ 1225 1575
 Wire Wire Line
 	1225 2325 1225 3075
 Connection ~ 1225 2325
-Text GLabel 9875 2275 2    50   Input ~ 0
-VCC
+$Comp
+L Device:R_Small R6
+U 1 1 60F3D43F
+P 9250 3675
+F 0 "R6" V 9175 3750 50  0000 C CNN
+F 1 "22" V 9175 3625 50  0000 C CNN
+F 2 "acheron_Components:R_SMD_1206" H 9250 3675 50  0001 C CNN
+F 3 "~" H 9250 3675 50  0001 C CNN
+	1    9250 3675
+	0    1    1    0   
+$EndComp
+Text GLabel 9150 3675 0    50   Input ~ 0
+D+
+$Comp
+L Device:R_Small R7
+U 1 1 60F3DFDB
+P 9250 3775
+F 0 "R7" V 9325 3850 50  0000 C CNN
+F 1 "22" V 9325 3725 50  0000 C CNN
+F 2 "acheron_Components:R_SMD_1206" H 9250 3775 50  0001 C CNN
+F 3 "~" H 9250 3775 50  0001 C CNN
+	1    9250 3775
+	0    1    1    0   
+$EndComp
+Text GLabel 9150 3775 0    50   Input ~ 0
+D-
+Text GLabel 7825 1225 2    50   Input ~ 0
+D+
+Text GLabel 7825 1325 2    50   Input ~ 0
+D-
+$Comp
+L power:+5V #PWR018
+U 1 1 60F4F738
+P 8600 3675
+F 0 "#PWR018" H 8600 3525 50  0001 C CNN
+F 1 "+5V" V 8600 3775 50  0000 L CNN
+F 2 "" H 8600 3675 50  0001 C CNN
+F 3 "" H 8600 3675 50  0001 C CNN
+	1    8600 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR016
+U 1 1 60F50D9A
+P 8425 3925
+F 0 "#PWR016" H 8425 3975 20  0001 C CNN
+F 1 "GND" V 8425 3750 30  0000 L CNN
+F 2 "" H 8425 3925 60  0000 C CNN
+F 3 "" H 8425 3925 60  0000 C CNN
+	1    8425 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60F53831
+P 8225 3975
+F 0 "R2" V 8175 3975 50  0000 C CNN
+F 1 "5k" V 8225 3975 50  0000 C CNN
+F 2 "acheron_Components:R_SMD_1206" H 8225 3975 50  0001 C CNN
+F 3 "~" H 8225 3975 50  0001 C CNN
+	1    8225 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 60F58349
+P 8225 3875
+F 0 "R1" V 8175 3875 50  0000 C CNN
+F 1 "5k" V 8225 3875 50  0000 C CNN
+F 2 "acheron_Components:R_SMD_1206" H 8225 3875 50  0001 C CNN
+F 3 "~" H 8225 3875 50  0001 C CNN
+	1    8225 3875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8325 3875 8425 3875
+Wire Wire Line
+	8425 3875 8425 3925
+Wire Wire Line
+	8325 3975 8425 3975
+Wire Wire Line
+	8425 3975 8425 3925
+Connection ~ 8425 3925
+Wire Wire Line
+	8000 4175 8100 4175
+Wire Wire Line
+	8100 4175 8100 4225
+Wire Wire Line
+	8100 4275 8000 4275
+Wire Wire Line
+	8000 4375 8100 4375
+Wire Wire Line
+	8100 4375 8100 4425
+Wire Wire Line
+	8100 4475 8000 4475
+Connection ~ 8100 4225
+Wire Wire Line
+	8100 4225 8100 4275
+Connection ~ 8100 4425
+Wire Wire Line
+	8100 4425 8100 4475
+Text GLabel 8700 4225 2    50   Input ~ 0
+D-
+Text GLabel 8700 4425 2    50   Input ~ 0
+D+
+$Comp
+L keyboard_parts:GND #PWR014
+U 1 1 60F884A5
+P 7250 6325
+F 0 "#PWR014" H 7250 6375 20  0001 C CNN
+F 1 "GND" H 7200 6225 30  0000 L CNN
+F 2 "" H 7250 6325 60  0000 C CNN
+F 3 "" H 7250 6325 60  0000 C CNN
+	1    7250 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 6275 7100 6325
+Wire Wire Line
+	7100 6325 7250 6325
+Wire Wire Line
+	7400 6275 7400 6325
+Wire Wire Line
+	7400 6325 7250 6325
+Connection ~ 7250 6325
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 60F9671E
+P 8500 3675
+F 0 "F1" V 8705 3675 50  0000 C CNN
+F 1 "500mA" V 8614 3675 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8550 3475 50  0001 L CNN
+F 3 "~" H 8500 3675 50  0001 C CNN
+	1    8500 3675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR015
+U 1 1 60F9810D
+P 8250 3675
+F 0 "#PWR015" H 8250 3525 50  0001 C CNN
+F 1 "VCC" H 8265 3848 50  0000 C CNN
+F 2 "" H 8250 3675 50  0001 C CNN
+F 3 "" H 8250 3675 50  0001 C CNN
+	1    8250 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3675 8400 3675
+Connection ~ 8250 3675
+Wire Wire Line
+	8000 3975 8125 3975
+Wire Wire Line
+	8000 3875 8125 3875
+$Comp
+L power:VCC #PWR017
+U 1 1 60FAFB44
+P 8500 5300
+F 0 "#PWR017" H 8500 5150 50  0001 C CNN
+F 1 "VCC" H 8450 5450 50  0000 L CNN
+F 2 "" H 8500 5300 50  0001 C CNN
+F 3 "" H 8500 5300 50  0001 C CNN
+	1    8500 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:PRTR5V0U2X_s D19
+U 1 1 60FBDBB3
+P 8625 4875
+F 0 "D19" V 8650 4825 50  0000 C CNN
+F 1 "PRTR5V0U2X_s" V 8525 4825 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 8650 4875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 8685 4875 50  0001 C CNN
+	1    8625 4875
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:GND #PWR019
+U 1 1 60FC0342
+P 8625 5300
+F 0 "#PWR019" H 8625 5350 20  0001 C CNN
+F 1 "GND" H 8575 5200 30  0000 L CNN
+F 2 "" H 8625 5300 60  0000 C CNN
+F 3 "" H 8625 5300 60  0000 C CNN
+	1    8625 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4225 8500 4525
+Wire Wire Line
+	8100 4225 8500 4225
+Wire Wire Line
+	8625 4425 8625 4525
+Wire Wire Line
+	8100 4425 8625 4425
+Wire Wire Line
+	8625 4425 8700 4425
+Connection ~ 8625 4425
+Wire Wire Line
+	8500 4225 8700 4225
+Connection ~ 8500 4225
+NoConn ~ 8000 4975
+NoConn ~ 8000 4775
+NoConn ~ 8000 4675
+NoConn ~ 8000 5075
+NoConn ~ 8000 5275
+NoConn ~ 8000 5375
+NoConn ~ 8000 5575
+NoConn ~ 8000 5675
+NoConn ~ 8000 5875
+NoConn ~ 8000 5975
+NoConn ~ 7825 1425
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 610AB553
+P 8050 3575
+F 0 "#FLG01" H 8050 3650 50  0001 C CNN
+F 1 "PWR_FLAG" H 8050 3748 50  0000 C CNN
+F 2 "" H 8050 3575 50  0001 C CNN
+F 3 "~" H 8050 3575 50  0001 C CNN
+	1    8050 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3575 8050 3675
+Wire Wire Line
+	8000 3675 8050 3675
+Connection ~ 8050 3675
+Wire Wire Line
+	8050 3675 8250 3675
+NoConn ~ 9350 3275
+NoConn ~ 7425 1625
+$Comp
+L Connector:USB_C_Receptacle J2
+U 1 1 60F4369F
+P 7400 4675
+F 0 "J2" H 7507 5942 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 7507 5851 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 7550 4675 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7550 4675 50  0001 C CNN
+	1    7400 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J3
+U 1 1 60F93F25
+P 7350 2600
+F 0 "J3" H 7307 2925 50  0000 C CNN
+F 1 "AudioJack4" H 7307 2834 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 7350 2600 50  0001 C CNN
+F 3 "~" H 7350 2600 50  0001 C CNN
+	1    7350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 60F95EED
+P 7550 2500
+F 0 "#PWR020" H 7550 2250 50  0001 C CNN
+F 1 "GND" H 7555 2327 50  0000 C CNN
+F 2 "" H 7550 2500 50  0001 C CNN
+F 3 "" H 7550 2500 50  0001 C CNN
+	1    7550 2500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
